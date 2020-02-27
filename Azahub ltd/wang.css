@@ -1,0 +1,64 @@
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: yellowgreen;
+    color: white;
+    width: 50%;
+    padding: 5px;
+    text-align: left;
+}
+#header{
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+#nav{
+    line-height: 30px;
+    background-color: black;
+    height: 75px;
+    width: 100%;
+    bottom:0;
+    float: left;
+    padding: 5px
+
+}
+#section{
+    widows: 350px;
+    float: left;
+    padding: 10px;
+
+}
+#footer{
+    background-color: black;
+    color: antiquewhite;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+
+}
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+a:visited{
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active{
+    color:yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
